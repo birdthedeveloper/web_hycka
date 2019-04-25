@@ -15,7 +15,7 @@ body, html{
     justify-content: space-evenly;
 }
 .hypertext-2{
-    color: white;
+    color: rgb(114, 114, 114);
     text-transform: uppercase;
 }
 .hypertext-2 p{
@@ -37,11 +37,17 @@ body, html{
 }
 
 /* book cards*/
+#title-1{
+    text-align: center;
+    font-size: 38px;
+    padding-top: 50px;
+}
 #div-4{
     display: flex;
     width: 95%;
     margin: auto;
     justify-content: space-evenly;
+    padding-top: 50px;
 }
 
 .hypertext-1{
@@ -66,3 +72,26 @@ body, html{
     padding-top: 17px
 }
 
+/* Media Queries */
+@media(max-width: 845px){
+    #div-4{
+        display: flex;
+        width: 65%;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .container-2{
+        display: list-item;
+    }
+    .container-2 p{
+        text-align: center;
+    }
+    .container-2 h1{
+        text-align: center;
+    }
+    .image-1{
+        width: 100%;
+    }
+
+}
