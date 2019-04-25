@@ -10,6 +10,9 @@ body, html{
     background-size: cover;
     background-position: bottom center;
     vertical-align: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 .hypertext-2{
     color: white;
@@ -17,9 +20,20 @@ body, html{
 }
 .hypertext-2 p{
     text-align: center;
-    font-size: 25px;
-    
-    
+    font-size: 25px; 
+}
+#title-2{
+    font-size: 46px;
+    text-align: center;
+    margin: auto;
+    color:rgb(66, 66, 66);
+}
+#title-3{
+    font-size: 22px;
+    padding-top: 20px;
+    text-align: center;
+    margin: auto;
+    color: rgb(131, 131, 131);
 }
 
 /* book cards*/
