@@ -1,0 +1,54 @@
+
+body, html{
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+#div-1{
+    background: url("../assets/background.jpg");
+    height: 100%;
+    background-size: cover;
+    background-position: bottom center;
+    vertical-align: bottom;
+}
+.hypertext-2{
+    color: white;
+    text-transform: uppercase;
+}
+.hypertext-2 p{
+    text-align: center;
+    font-size: 25px;
+    
+    
+}
+
+/* book cards*/
+#div-4{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.hypertext-1{
+    text-decoration: none;
+    color: black;
+}
+
+.container-2{
+    display: flex;
+    flex-direction: column;
+}
+/* book card end*/
+
+#div-3{
+    margin-top: 50px;
+    background-color: rgb(167, 167, 167);
+    height: 50px;
+}
+
+#div-3 p{ 
+    text-align: center;
+    padding-top: 17px
+}
+
