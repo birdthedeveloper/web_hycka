@@ -1,0 +1,30 @@
+/*nav bar*/
+header{
+    background:#333333;
+    color:#aaaaaa;
+    padding-top:30px;
+    min-height:60px;
+    box-shadow: 0px 1px  5px#000000;
+    
+}
+header a{
+    color:#aaaaaa;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:20px;
+}
+header a:hover{
+    color:#ffffff;
+}
+.current{
+    color: rgb(95, 95, 136);
+}
+
+header li{
+    display: inline;
+    padding: 0px 15px 0px 15px;
+}
+
+header nav{
+    align-items: center;
+}
